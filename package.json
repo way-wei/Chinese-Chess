@@ -1,0 +1,27 @@
+{
+  "name": "chinese-chess",
+  "version": "1.0.0",
+  "description": "水球軟體學院 - AI 軟工百倍研究組織入會任務三之作答",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js --require features/step_definitions/**/*.js features/chess.feature --format json:reports/cucumber_report.json",
+    "report": "node generate-report.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/way-wei/Chinese-Chess.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/way-wei/Chinese-Chess/issues"
+  },
+  "homepage": "https://github.com/way-wei/Chinese-Chess#readme",
+  "devDependencies": {
+    "@cucumber/cucumber": "^12.0.0",
+    "@cucumber/html-formatter": "^12.0.0",
+    "cucumber-html-reporter": "^7.2.0",
+    "jest": "^30.0.4"
+  }
+}
